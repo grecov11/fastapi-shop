@@ -16,5 +16,4 @@ class Settings(BaseSettings):
 
 settings = Settings()
 database_url = settings.DATABASE_URL_asyncpg()
-
-# ?charset=utf8mb4_unicode_ci
+# print(database_url)
