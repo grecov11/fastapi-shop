@@ -1,5 +1,7 @@
 __all__ = (
-    "Base"
+    "Base",
+    "Product",
 )
 
 from .base import Base
+from .product import Product
